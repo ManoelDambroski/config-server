@@ -1,9 +1,12 @@
- server:
-   port: 8888
- spring:
-    application:
+spring:
+   application:
      name: config-server
- greeting-service:
-   greeting: "555555i"
-   default-value: "Mundo"
-    
+management:
+  endpoints:
+    web:
+     exposure:
+      include:
+      - '*'
+greeting-service:
+  greeting: "QA"
+  default-value: "Mundo"
