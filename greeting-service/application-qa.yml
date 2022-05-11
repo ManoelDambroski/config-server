@@ -1,6 +1,9 @@
-server:
-  port: 8888
-spring:
-   application:
+ server:
+   port: 8888
+ spring:
+    application:
      name: config-server
+ greeting-service:
+   greeting: "555555i"
+   default-value: "Mundo"
     
